@@ -1,0 +1,45 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "BKnown Technology"
+		}
+	},
+		{
+	      "path": "pages/Input/Input",
+	      "style": {
+	        "navigationBarTitleText": "IOP recording"
+	      }
+	    },
+		{
+		  "path": "pages/Analyse/Analyse",
+		  "style": {
+		    "navigationBarTitleText": "IOP analysis"
+		  }
+		},
+		{
+		  "path": "pages/Introduce/Introduce",
+		  "style": {
+		    "navigationBarTitleText": "Introduction"
+		  }
+		}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "BKnown Technology",
+		"navigationBarBackgroundColor": "#a4d9d9",
+		"backgroundColor": "#e4ffff",
+		"app-plus": {
+			"background": "#e3f0f4"
+		}
+	},
+	"easycom": {
+	  "autoscan": true,
+	  "custom": {
+	    "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+	  }
+	},
+	"usingComponents": {
+	  "uni-calendar": "/components/uni-calendar/uni-calendar"
+	}
+}
+

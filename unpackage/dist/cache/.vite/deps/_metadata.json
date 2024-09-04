@@ -1,0 +1,34 @@
+{
+  "hash": "cfc44777",
+  "configHash": "a350ec2c",
+  "lockfileHash": "2cfeaefa",
+  "browserHash": "43fdd605",
+  "optimized": {
+    "vue-chartjs": {
+      "src": "../../../../../../../node_modules/vue-chartjs/dist/index.js",
+      "file": "vue-chartjs.js",
+      "fileHash": "f74fdad6",
+      "needsInterop": false
+    },
+    "chart.js": {
+      "src": "../../../../../../../node_modules/chart.js/dist/chart.js",
+      "file": "chart__js.js",
+      "fileHash": "7c03b6d8",
+      "needsInterop": false
+    },
+    "d3": {
+      "src": "../../../../../../../node_modules/d3/src/index.js",
+      "file": "d3.js",
+      "fileHash": "fe19c415",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3HQZ7ZRY": {
+      "file": "chunk-3HQZ7ZRY.js"
+    },
+    "chunk-F3FYYIAV": {
+      "file": "chunk-F3FYYIAV.js"
+    }
+  }
+}
